@@ -1,0 +1,89 @@
+body{
+    background-color: rgb(56, 140, 213);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.head_footer{
+    background-color: #36454F;
+    text-align: center;
+    color :lightpink;
+    margin: 10px, 10px, 10px, 10px;
+    padding: 40px;
+    height: 40px;
+    width: 97%;
+    float: left;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  padding: 10px 15px;
+}
+
+nav a:hover {
+  background-color: lightpink;  /* background changes on hover */
+  color: black;                 /* text color changes on hover */
+}
+
+
+nav {
+  border-bottom: 1px solid black;
+}
+
+.crumbs ol {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.crumb {
+  display: inline-block;
+}
+
+.crumb a::after {
+  display: inline-block;
+  color: black;
+  font-size: 100%;
+  font-weight: bold;
+  padding: 0 3px;
+}
+
+
+main{
+    background-color: lightgrey;
+    text-align: left;
+    color :black;
+    margin: 10px, 10px, 10px, 10px;
+    padding: 40px;
+    height: 300px;
+    width: 50%;
+    float: left;
+}
+
+aside{
+    background-color: hotpink;
+    text-align: center;
+    color :black;
+    margin: 10px, 10px, 10px, 10px;
+    padding: 40px;
+    height: 300px;
+    width: 30%;
+    float: right;
+}
+
+aside:hover{
+    background-color: rgb(253, 4, 129);
+    color: black;
+    transition: background-color 1s ease-in-out, color 1s ease-in-out;
+}
+
+input[type="text"] {
+  width: 150px;             
+  height: 20px;
+  transition: width 10s ease-in-out, height 10s ease-in-out
+}
+
+input[type="text"]:focus {
+  width: 300px;        
+  height: 40px;
+}
+
